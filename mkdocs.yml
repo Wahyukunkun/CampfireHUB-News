@@ -1,0 +1,13 @@
+site_name: Campfire Hub
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Berita:
+      - Berita Pertama: berita/berita1.md
+  - Wiki:
+      - Contoh Game: wiki/game1.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
